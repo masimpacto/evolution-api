@@ -1,0 +1,55 @@
+# ===============================
+# 🚀 CONFIGURACIÓN DEL SERVIDOR
+# ===============================
+SERVER_NAME=evolution
+SERVER_TYPE=http
+SERVER_PORT=8080
+SERVER_URL=https://evolution-api-1.onrender.com
+
+# ===============================
+# 🧭 BASE DE DATOS POSTGRESQL
+# ===============================
+DATABASE_PROVIDER=postgresql
+DATABASE_CONNECTION_URI=postgresql://evolution_db_6lqg_user:3lb8DxTwOiP0tgGvREo81bKuebJPs5yf@dpg-d3jrqk1r0fns738gdhtg-a/evolution_db_6lqg
+DATABASE_CONNECTION_CLIENT_NAME=evolution_exchange
+
+# ===============================
+# ⚙️ CORS Y LOGS
+# ===============================
+CORS_ORIGIN=*
+CORS_METHODS=GET,POST,PUT,DELETE
+CORS_CREDENTIALS=true
+
+LOG_LEVEL=ERROR,WARN,DEBUG,INFO,LOG,VERBOSE,DARK,WEBHOOKS,WEBSOCKET
+LOG_COLOR=true
+LOG_BAILEYS=error
+
+EVENT_EMITTER_MAX_LISTENERS=50
+DEL_INSTANCE=false
+
+# ===============================
+# 📴 INTEGRACIONES DESACTIVADAS
+# ===============================
+RABBITMQ_ENABLED=false
+SQS_ENABLED=false
+WEBSOCKET_ENABLED=false
+PUSHER_ENABLED=false
+KAFKA_ENABLED=false
+CHATWOOT_ENABLED=false
+OPENAI_ENABLED=false
+DIFY_ENABLED=false
+N8N_ENABLED=false
+EVOAI_ENABLED=false
+
+# ===============================
+# 🧠 CACHE
+# ===============================
+CACHE_REDIS_ENABLED=false
+CACHE_LOCAL_ENABLED=true
+
+# ===============================
+# 🔐 AUTENTICACIÓN
+# ===============================
+AUTHENTICATION_API_KEY=429683C4C977415CAAFCCE10F7D57E11
+AUTHENTICATION_EXPOSE_IN_FETCH_INSTANCES=true
+LANGUAGE=en
